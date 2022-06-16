@@ -1,0 +1,33 @@
+ /* :root  */
+ /* base */
+ /* color for body */
+ body{
+     color: #757575;
+     background-color: #ffffff;
+    /*для мейн background-color: 2F303A; */
+     /* для боді background-color: E5E5E5; */
+     /* колір лого color:000000; */
+     /* колір для бодіка color: 212121; */
+     /*колір ссилок і кнопок color: 2196F3; */
+     /*колір для текстів абзацу color: 757575; */
+     /* колір для Н1 і кнопок color:FFFFFF; */
+ }
+ .list{
+     list-style: none;
+ }
+ /* UP */
+ /* site-nav */
+ .site-nav .link{
+     color: #212121;
+ }
+ .link:hover,
+ .link:focus{
+     color:#2196F3 ;
+ }
+ .link:active{
+     color: #2196F3;
+ }
+/* section */
+.section-title{
+    color: #212121;
+}
