@@ -3,7 +3,8 @@
      --paragraph-text-color:#757575;
      --accent-color:#2196F3;
      --button-text-color:#FFFFFF;
-     --main-background-color:#E5E5E5;
+     --main-white-color:#E5E5E5;
+     --button-secondary-color: #F5F4FA;
  }
  /* :root  */
 /* для боді background-color: E5E5E5; */
@@ -11,7 +12,6 @@
  /*колір ссилок і кнопок color: 2196F3; */
  /*колір для текстів абзацу color: 757575; */
  /* колір для Н1 і кнопок color:FFFFFF; */
- }
  /* base */
  /* color for body */
  /* font-family:Raleway – 700,Roboto – 400, 500, 700, 900 */
@@ -35,7 +35,7 @@ p{
      
      
      /* колір для Н1 і кнопок color:FFFFFF; */
- }
+
  .list{
      list-style: none;
  }
@@ -57,7 +57,58 @@ p{
 .section-title{
    color: var( --title-text-color);
 }
+.work-list .title{
+   color: var(--title-text-color);
+}
 /* features */
 .features .title{
  color: var( --title-text-color);
 }
+/* button */
+.button{
+    color:var( --title-text-color);
+    background-color: var(--button-secondary-color);
+    border-style: none;
+}
+.button:hover,
+.button:focus{
+    color: var(--button-text-color);
+    background-color:var(--accent-color);
+}
+.button:active{
+    color: var(--button-text-color);
+    background-color:var(--accent-color);
+}
+
+/* .button .primary{
+    color: var(--button-text-color);
+    background-color: var(--accent-color);
+
+}
+.button .secondary{
+    color: var(--title-text-color);
+    background-color: var(--button-secondary-color);
+} */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
