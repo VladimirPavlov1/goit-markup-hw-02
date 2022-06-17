@@ -16,16 +16,23 @@
  /* base */
  /* color for body */
  /* font-family:Raleway – 700,Roboto – 400, 500, 700, 900 */
+
+/* font-family: 'Raleway', sans-serif; 
+font-family: 'Roboto', sans-serif; */
  body{
-     color: var(--paragraph-text-color);
+    font-size: 14px;
+    font-family:'Roboto', sans-serif; 
+    font-weight:400;
+    line-height: 24px;
+    color: var(--paragraph-text-color);
      background-color: #ffffff;
      }
-h1{
-    color:red;
-}
-p{
+/* h1{
+    
+} */
+/* p{
     color: var(--paragraph-text-color);
-}
+} */
 /* p{
     color: var(--paragraph-text-color);
 } */
@@ -44,6 +51,10 @@ p{
  /* site-nav */
  .site-nav .link{
      color: var( --title-text-color);
+     font-family:'Roboto', sans-serif;
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 16.41px;
  }
  .link:hover,
  .link:focus{
@@ -56,29 +67,80 @@ p{
  .adress-nav .link{
     color: var(--title-text-color); 
     list-style: none;
+     font-family:'Roboto', sans-serif;
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 16.41px;
+     font-style: normal;
  }
  .adress-nav .link:hover,
  .adress-nav .link:focus{
      color: var(--accent-color);
+     border: 2px solid var(--accent-color);    
+ }
+ .adress-nav .link:active{
+    color: var(--accent-color);  
  }
  /* hero section */
-
+.hero{
+    color:var(--button-text-color);
+    background-color: var(--hero-section-color);
+    font-family:'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+}
+.hero-button{
+    color: var(--button-text-color);
+    background-color: var(--accent-color);
+    font-family:'Roboto', sans-serif;
+    font-weight:700;
+    font-size: 16px;
+    border: none;
+   
+}
 /* section */
 .section-title{
    color: var( --title-text-color);
+   font-family:'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 42.19px;
 }
-.work-list .title{
-   color: var(--title-text-color);
-}
+
+
+
 /* features */
 .features .title{
  color: var( --title-text-color);
+}
+/* Н3 заголовки для всього сайту */
+.title{
+    font-family:'Roboto', sans-serif; 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+.team .title{
+    color: var(--title-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+.team p{
+    font-size: 16px;
+    line-height: 18.75px;
 }
 /* button */
 .button{
     color:var( --title-text-color);
     background-color: var(--button-secondary-color);
     border-style: none;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
 }
 .button:hover,
 .button:focus{
@@ -109,6 +171,16 @@ p{
 .footer-nav .link:hover,
 .footer-nav .link:focus{
      color: var(--accent-color);
+ }
+ .work-list .title{
+     color: var(--title-text-color);
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 36px;
+ }
+ .work-list p{
+     font-size: 16px;
+     line-height: 30px;
  }
     
     
