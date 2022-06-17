@@ -5,6 +5,7 @@
      --button-text-color:#FFFFFF;
      --main-white-color:#E5E5E5;
      --button-secondary-color: #F5F4FA;
+     --hero-section-color:#2F303A;
  }
  /* :root  */
 /* для боді background-color: E5E5E5; */
@@ -51,6 +52,15 @@ p{
  .link:active{
      color:var(--accent-color);
  }
+ /* address nav */
+ .adress-nav .link{
+    color: var(--title-text-color); 
+    list-style: none;
+ }
+ .adress-nav .link:hover,
+ .adress-nav .link:focus{
+     color: var(--accent-color);
+ }
  /* hero section */
 
 /* section */
@@ -91,7 +101,15 @@ p{
 } */
     
     
-    
+/* footer */
+.footer-nav .link{
+    color: var(--button-text-color);
+    background-color: var(--hero-section-color);
+}
+.footer-nav .link:hover,
+.footer-nav .link:focus{
+     color: var(--accent-color);
+ }
     
     
     
