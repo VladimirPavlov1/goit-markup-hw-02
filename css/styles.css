@@ -6,6 +6,8 @@
      --main-white-color:#E5E5E5;
      --button-secondary-color: #F5F4FA;
      --hero-section-color:#2F303A;
+     --logo-color:#000000;
+     --footer-text-color:rgba(255, 255, 255, 0.6);
  }
  /* :root  */
 /* для боді background-color: E5E5E5; */
@@ -23,16 +25,20 @@ font-family: 'Roboto', sans-serif; */
     font-size: 14px;
     font-family:'Roboto', sans-serif; 
     font-weight:400;
-    line-height: 24px;
     color: var(--paragraph-text-color);
-     background-color: #ffffff;
-     }
+    background-color: #ffffff;
+}
+body ul{
+    list-style-type: none;    ;
+}
 /* h1{
     
 } */
-/* p{
-    color: var(--paragraph-text-color);
-} */
+.p{
+ 
+    line-height: 1.71;
+    letter-spacing: 3%;
+} 
 /* p{
     color: var(--paragraph-text-color);
 } */
@@ -48,30 +54,50 @@ font-family: 'Roboto', sans-serif; */
      list-style: none;
  }
  /* UP */
+
+
+ 
+ /* логотип */
+ a.logo {
+     color: var(--logo-color);
+     font-family:'Raleway', sans-serif;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.2;
+     letter-spacing: 3%; 
+     text-decoration: none;
+ }
+.logo .web{
+     color:var(--accent-color);
+ }
  /* site-nav */
  .site-nav .link{
      color: var( --title-text-color);
      font-family:'Roboto', sans-serif;
      font-size: 14px;
      font-weight: 500;
-     line-height: 16.41px;
+     line-height: 1.17;
+     text-decoration: none;
+     letter-spacing: 2%;
  }
  .link:hover,
  .link:focus{
      color: var(--accent-color);
  }
- .link:active{
+ .site-nav .link.current{
      color:var(--accent-color);
  }
  /* address nav */
  .adress-nav .link{
-    color: var(--title-text-color); 
+    color: var(--paragraph-text-color); 
     list-style: none;
      font-family:'Roboto', sans-serif;
      font-size: 14px;
      font-weight: 500;
-     line-height: 16.41px;
+     line-height: 1.17;
      font-style: normal;
+     text-decoration: none;
+     letter-spacing: 2%;
  }
  .adress-nav .link:hover,
  .adress-nav .link:focus{
@@ -83,20 +109,30 @@ font-family: 'Roboto', sans-serif; */
  }
  /* hero section */
 .hero{
+  
+    background-color: var(--hero-section-color); 
+}
+.hero-title{
     color:var(--button-text-color);
-    background-color: var(--hero-section-color);
     font-family:'Roboto', sans-serif;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
+    letter-spacing: 6%;
+    text-align: center;
+    text-transform: uppercase;
 }
+
 .hero-button{
     color: var(--button-text-color);
     background-color: var(--accent-color);
     font-family:'Roboto', sans-serif;
     font-weight:700;
     font-size: 16px;
+    line-height: 1.87;
     border: none;
+    text-align: center;
+    letter-spacing: 6%;
    
 }
 /* section */
@@ -105,7 +141,8 @@ font-family: 'Roboto', sans-serif; */
    font-family:'Roboto', sans-serif;
    font-weight: 700;
    font-size: 36px;
-   line-height: 42.19px;
+   line-height: 1.17;
+   letter-spacing: 3%;
 }
 
 
@@ -117,20 +154,23 @@ font-family: 'Roboto', sans-serif; */
 /* Н3 заголовки для всього сайту */
 .title{
     font-family:'Roboto', sans-serif; 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16.41px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.18;
+    letter-spacing: 3%;
 }
 .team .title{
     color: var(--title-text-color);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 18.75px;
+    line-height: 1.17;
+    letter-spacing: 3%;
 }
 .team p{
     font-size: 16px;
-    line-height: 18.75px;
+    line-height: 1.18;
+   
 }
 /* button */
 .button{
@@ -164,13 +204,32 @@ font-family: 'Roboto', sans-serif; */
     
     
 /* footer */
+.footer-items{
+     background-color: var(--hero-section-color); 
+}
+.footer-items .logo{
+     color: var(--button-text-color);
+     font-family:'Raleway', sans-serif;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.2;
+     letter-spacing: 3%; 
+     text-decoration: none;
+ }
+
 .footer-nav .link{
-    color: var(--button-text-color);
-    background-color: var(--hero-section-color);
+    color: var(--footer-text-color);
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 3%;
+    text-decoration: none;
+    font-style: normal;
 }
 .footer-nav .link:hover,
 .footer-nav .link:focus{
-     color: var(--accent-color);
+     color: var(--button-text-color);
  }
  .work-list .title{
      color: var(--title-text-color);
