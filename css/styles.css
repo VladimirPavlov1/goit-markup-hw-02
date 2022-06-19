@@ -33,12 +33,8 @@ body ul{
 }
 /* h1{
     
-} */
-.p{
- 
-    line-height: 1.71;
-    letter-spacing: 3%;
-} 
+
+
 /* p{
     color: var(--paragraph-text-color);
 } */
@@ -64,7 +60,7 @@ body ul{
      font-weight: 700;
      font-size: 26px;
      line-height: 1.2;
-     letter-spacing: 3%; 
+     letter-spacing: .03em; 
      text-decoration: none;
  }
 .logo .web{
@@ -76,9 +72,9 @@ body ul{
      font-family:'Roboto', sans-serif;
      font-size: 14px;
      font-weight: 500;
-     line-height: 1.17;
+     line-height: 1.14;
      text-decoration: none;
-     letter-spacing: 2%;
+     letter-spacing: .02em;
  }
  .link:hover,
  .link:focus{
@@ -94,10 +90,10 @@ body ul{
      font-family:'Roboto', sans-serif;
      font-size: 14px;
      font-weight: 500;
-     line-height: 1.17;
+     line-height: 1.14;
      font-style: normal;
      text-decoration: none;
-     letter-spacing: 2%;
+     letter-spacing: .02em;
  }
  .adress-nav .link:hover,
  .adress-nav .link:focus{
@@ -118,7 +114,7 @@ body ul{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 6%;
+    letter-spacing: .06em;
     text-align: center;
     text-transform: uppercase;
 }
@@ -132,9 +128,10 @@ body ul{
     line-height: 1.87;
     border: none;
     text-align: center;
-    letter-spacing: 6%;
+    letter-spacing: .06em;
    
 }
+
 /* section */
 .section-title{
    color: var( --title-text-color);
@@ -142,7 +139,7 @@ body ul{
    font-weight: 700;
    font-size: 36px;
    line-height: 1.17;
-   letter-spacing: 3%;
+   letter-spacing: .03em;
 }
 
 
@@ -154,22 +151,30 @@ body ul{
 /* Н3 заголовки для всього сайту */
 .title{
     font-family:'Roboto', sans-serif; 
-    font-weight: 500;
-    font-size: 16px;
-    line-height:1.18;
-    letter-spacing: 3%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height:1.14;
+    letter-spacing: .03em;
+    text-transform: uppercase;
 }
+.features .text{
+ 
+    line-height: 1.71;
+    letter-spacing: .03em;
+} 
 .team .title{
     color: var(--title-text-color);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.17;
-    letter-spacing: 3%;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-transform:none;
 }
 .team p{
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.19;
+    letter-spacing: .03em;
    
 }
 /* button */
@@ -180,7 +185,9 @@ body ul{
     font-family:'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.63;
+    letter-spacing: .03em;
+    cursor: pointer;
 }
 .button:hover,
 .button:focus{
@@ -218,30 +225,31 @@ body ul{
  }
 
 .footer-nav .link{
-    color: var(--footer-text-color);
+    color: var(--button-text-color);
     font-family:'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 3%;
+    letter-spacing: .03em;
     text-decoration: none;
     font-style: normal;
 }
-.footer-nav .link:hover,
+/* .footer-nav .link:hover,
 .footer-nav .link:focus{
-     color: var(--button-text-color);
- }
+     color: var(--button-text-color); */
+ 
  .work-list .title{
      color: var(--title-text-color);
      font-weight: 700;
      font-size: 18px;
      line-height: 2;
-     letter-spacing: 6%;
+     letter-spacing: .06em;
+     text-transform: none;
  }
  .work-list p{
      font-size: 16px;
-     line-height: 1.9;
-     letter-spacing: 3%;
+     line-height: 1.88;
+     letter-spacing: .03em;
  }
     
     
